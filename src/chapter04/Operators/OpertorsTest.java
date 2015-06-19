@@ -34,6 +34,18 @@ public class OpertorsTest {
 	 * types that are in the same class hierarchy. For interfaces an object passes that
 	 * instanceof test if any of its superclass implement the interfaces on the right side of the 
 	 * instanceof operator.*/
+		
+	/*Logical Operators.
+	 * 1. The exam covers six logical operators &, |, ^, && , ||
+	 * 2. Logical operators work the two expression that ust resolve to boolean values.
+	 * 3. The && and & operators return true only if both operands are true. 
+	 * 4. The || and | operators are know as short-circuit operators
+	 * The && operator does not evaluate the right operand if the left operand is false.
+	 * The || operator does not evaluate the right operand if the left operand is true. 
+	 * The & and | operators always evaluate both operands
+	 * The ^ operator return true if exactly one operand is true.
+	 * The ! operator (called the inversion operator )returns the opposite value of the boolean operand it 
+	 * precedes. */
 	}
 
 }
