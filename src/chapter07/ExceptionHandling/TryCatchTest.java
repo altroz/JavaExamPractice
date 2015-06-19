@@ -4,7 +4,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.List;
-
+/* 1. ArrayIndexOutofBoundsException
+ * 2. ClassCastException
+ * 3.IllegalArguementException
+ * 4.IllegalStateException
+ * 5.NullPointerException
+ * 6.NumberFormatException
+ * 7.AssertError
+ * 8.ExceptionInInitializerError
+ * 9.StackOverflowerError*/
 public class TryCatchTest {
 	
 	private static List<Integer> list;
