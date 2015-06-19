@@ -7,6 +7,6 @@ public class Car2 extends Car{
 		Car2 b = new Car2();
 		
 		b.drive();
-		a.drive();
+		//a.drive();
 	}
 }
