@@ -1,4 +1,4 @@
-package chapter02.Inheritance2.ReferenceVariableCasting;
+package chapter02.Inheritance2;
 
 public class Car {
 	 void drive(){
