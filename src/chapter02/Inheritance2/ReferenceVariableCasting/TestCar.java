@@ -8,7 +8,6 @@ public class TestCar {
 			Car.drive();
 			
 			if(Car instanceof Ferrari){
-				
 				/* Car.brake() is going to lead to a compile time error
 				 * The reason is because it requires a downcasting. */
 				/*Ferrari d = (Ferrari)Car;
