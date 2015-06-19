@@ -16,6 +16,11 @@ public class OpertorsTest {
 		 * When comparing characters, Java uses the Unicode value of the character as
 		 * the numerical value. 
 		 * Four types of things can be tested: numbers, characters, boolean and reference variable*/
+		
+	// Ternary Operators//
+	// ? Returns the operators after the ? if the expression is true. 
+	// Returns the value after the : if the expression is false.
+	// (a > b) ? (a+b) : (a-b)
 	}
 
 }
