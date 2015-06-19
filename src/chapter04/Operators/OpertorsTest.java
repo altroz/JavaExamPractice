@@ -21,6 +21,10 @@ public class OpertorsTest {
 	// ? Returns the operators after the ? if the expression is true. 
 	// Returns the value after the : if the expression is false.
 	// (a > b) ? (a+b) : (a-b)
+		
+	// Increment and Decrement Operators
+	// Prefix operator (++ x and -- x) run before the values is used in the expression.
+	// Postfix operator (x ++ and x --) run after the values is used in the expression
 	}
 
 }
