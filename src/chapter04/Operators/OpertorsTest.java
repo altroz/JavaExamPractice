@@ -24,7 +24,16 @@ public class OpertorsTest {
 		
 	// Increment and Decrement Operators
 	// Prefix operator (++ x and -- x) run before the values is used in the expression.
-	// Postfix operator (x ++ and x --) run after the values is used in the expression
+	// Postfix operator (x ++ and x --) run after the values is used in the expression.
+		
+		
+	/* Instanceof Operators
+	 * 
+	 * instanceof is for reference variable only; it check whether the object is of a particular
+	 * type. The instanceof operator can be used only to test objects (or null) against class
+	 * types that are in the same class hierarchy. For interfaces an object passes that
+	 * instanceof test if any of its superclass implement the interfaces on the right side of the 
+	 * instanceof operator.*/
 	}
 
 }
