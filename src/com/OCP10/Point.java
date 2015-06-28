@@ -9,9 +9,16 @@ public class Point {
 	public boolean equals(Point other){
 		if(other == null)
 			return false;
-		else 
-			return true;
-	}
+		else{
+			if(other instanceof Point){ 
+				Point anotherPoint = (Point) other;
+				if((xPos == anotherPoint.xPos) && (yPos == anotherPoint.yPos))
+					return true;}
+			return false;
+			}
+			
+		}// End of Else
+		
 	public static void main(String[]args){
 		Point p1 = new Point(20,20);
 		Point p2 = new Point(50,40);
