@@ -8,13 +8,13 @@ public class EnumTest {
 	public void features(){
 		switch(printerType){
 		case DOTMATRIX:
-			System.out.println("Dot Matrix printeres are economicals and almost obsolete");
+			System.out.println(printerType.getPrinterPageCapacity());
 			break;
 		case INKJET:
-			System.out.println("InkJets printers are economicals and very useful");
+			System.out.println(printerType.getPrinterPageCapacity());
 			break;
 		case LASER:
-			System.out.println("Laser printers provides the best quality and are the fastest.");
+			System.out.println(printerType.getPrinterPageCapacity());
 			break;
 		}
 	}
