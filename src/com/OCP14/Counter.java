@@ -2,6 +2,9 @@ package com.OCP14;
 
 public class Counter {
 	private static int counter;
+	static {
+	 counter = 1;
+	}
 	public Counter(){
 		counter ++;
 	}
