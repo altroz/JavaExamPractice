@@ -7,7 +7,13 @@ public class Circle extends Observable {
 
 	public void setCenter(Point center) {
 		this.center = center;
-		setChange();
+		setChanged();
+		notifyObservers();
+	}
+	
+	public void setRadius(int radius) {
+		this.radius = radius;
+		setChanged();
 		notifyObservers();
 	}
 
