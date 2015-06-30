@@ -11,4 +11,12 @@ public class Circle {
 	public String toString(){
 		return "center = ( "+ xPos + ", "+ yPos + ") and radius = "+ radius;
 	}
+	
+	public CircleTransfer getCircleTransfer(){
+		CircleTransfer circleTransfer = new TransCircle();
+		circleTransfer.setRadius(radius);
+		circleTransfer.setxPos(xPos);
+		circleTransfer.styPos(yPos);
+		return circleTransfer;
+	}
 }
