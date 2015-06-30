@@ -6,14 +6,13 @@ public class Logger {
 
 	private static Logger myInstance;
 
+	public static class LoggerHolder {
+		public static Logger logger = new Logger();
+
+	}
+
 	public static Logger getInstance() {
-		if (myInstance == null) {
-			synchronized (Logger.class){
-			if(myInstance == null)
-				myInstance = new Logger();}
-			
-		}
-		return myInstance;
+		return LoggerHolder.logger;
 	}
 
 	public void log(String[] s) {
