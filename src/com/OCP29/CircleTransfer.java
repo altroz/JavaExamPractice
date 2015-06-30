@@ -1,6 +1,10 @@
 package com.OCP29;
 import java.io.Serializable;
 public class CircleTransfer implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private int xPos;
 	private int yPos;
 	private int radius;
