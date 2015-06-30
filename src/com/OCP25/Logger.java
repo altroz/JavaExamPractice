@@ -3,7 +3,7 @@ package com.OCP25;
 public class Logger {
 	private Logger(){	}
 	private static Logger myInstance;
-	public static Logger getInstance(){
+	public static synchronized Logger getInstance(){
 		if(myInstance == null){
 			myInstance = new Logger();
 		}
