@@ -13,10 +13,10 @@ public class Circle {
 	}
 	
 	public CircleTransfer getCircleTransfer(){
-		CircleTransfer circleTransfer = new TransCircle();
+		CircleTransfer circleTransfer = new CircleTransfer();
 		circleTransfer.setRadius(radius);
 		circleTransfer.setxPos(xPos);
-		circleTransfer.styPos(yPos);
+		circleTransfer.setyPos(yPos);
 		return circleTransfer;
 	}
 }
