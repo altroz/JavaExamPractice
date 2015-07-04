@@ -9,7 +9,11 @@ public class OldContainerTest {
 		floatValues.add(100.0);
 		
 		for(int i = 0; i < floatValues.size(); i++){
-			System.out.println(floatValues.get(i));
+//System.out.println(floatValues.get(i));
+			Float temp = (Float)floatValues.get(i);
+			System.out.println(temp);
+		
+
 		}
 	}
 }
