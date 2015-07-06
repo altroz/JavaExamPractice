@@ -10,4 +10,9 @@ public class BoxPrinter {
 	public String toString() {
 		return "[ " + val + " ]";
 	}
+
+	public Object getValue() {
+		// TODO Auto-generated method stub
+		return val;
+	}
 }
