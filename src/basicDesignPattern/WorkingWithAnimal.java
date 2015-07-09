@@ -23,5 +23,11 @@ public class WorkingWithAnimal {
 		for (int i = 0; i < animal.length; i++) {
 			System.out.println(animal[i].getSound());
 		}
+		
+		System.out.println("Dog name after method calls: "+ fido.getName());
+	
+	}
+	public static void changeObjectName(Dog fido){
+	fido.setName("Marcus");
 	}
 }
