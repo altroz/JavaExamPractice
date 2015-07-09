@@ -1,8 +1,9 @@
 package basicDesignPattern;
 
-public class Giraffe extends Creature{
+public class Giraffe extends Creature {
 	private String name;
 	private double weight;
+
 	@Override
 	public void setName(String newName) {
 		// TODO Auto-generated method stub
@@ -26,5 +27,5 @@ public class Giraffe extends Creature{
 		// TODO Auto-generated method stub
 		return weight;
 	}
-	
+
 }
