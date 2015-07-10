@@ -4,7 +4,7 @@ import java.awt.*;
 
 public class MergeSort implements Sorting {
 	public List sort(List list) {
-		// set implementation
+		// Method implementation
 		return list;
 	}
 }
