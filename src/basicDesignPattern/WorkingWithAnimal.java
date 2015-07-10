@@ -22,9 +22,14 @@ public class WorkingWithAnimal {
 		animal[1] = kitty;
 		for (int i = 0; i < animal.length; i++) {
 			System.out.println(animal[i].getSound());
+			
 		}
 
 		System.out.println("Dog name after method calls: " + fido.getName());
+		
+		Giraffe giraffe = new Giraffe();
+		giraffe.setName("Frank");
+		System.out.println(giraffe.getName());
 
 	}
 
