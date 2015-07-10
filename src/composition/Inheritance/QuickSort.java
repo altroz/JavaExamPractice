@@ -6,7 +6,7 @@ public class QuickSort implements Sorting {
 
 	@Override
 	public List sort(List list) {
-		// TODO Auto-generated method stub
+		// Method Implementation
 		return list;
 	}
 
