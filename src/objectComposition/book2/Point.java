@@ -10,6 +10,6 @@ public class Point {
 	}
 
 	public String toString() {
-		return "(" + xPos + " " + yPos + ")";
+		return "(" + xPos + ", " + yPos + ")";
 	}
 }
