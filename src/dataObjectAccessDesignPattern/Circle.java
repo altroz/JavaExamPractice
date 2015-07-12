@@ -15,7 +15,7 @@ public class Circle {
 		return "center = ( " + xPos + ", " + yPos + ")";
 	}
 
-	public CircleTransfer getCircleTransfer() {
+	public CircleTransfer getCircleTransferObject() {
 		CircleTransfer circleTransfer = new CircleTransfer();
 		circleTransfer.setRadius(radius);
 		circleTransfer.setxPos(xPos);
