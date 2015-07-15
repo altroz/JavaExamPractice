@@ -10,11 +10,11 @@ public class DbQuery {
 						.executeQuery("SELECT * FROM contact")) {
 			System.out.println("ID\tfName\tlName\tEmail\t\tphoneNo");
 			while (resultSet.next()) {
-				System.out.println(resultSet.getInt("id") + "\t"
-						+ resultSet.getString("FirstName") + "\t"
-						+ resultSet.getString("LastName") + "\t"
-						+ resultSet.getString("Email") + "\t"
-						+ resultSet.getString("phoneNo"));
+				System.out.println(resultSet.getInt(1) + "\t"
+						+ resultSet.getString(2) + "\t"
+						+ resultSet.getString(3) + "\t"
+						+ resultSet.getString(4) + "\t"
+						+ resultSet.getString(5));
 			}
 		} catch (SQLException sqle) {
 			sqle.printStackTrace();
