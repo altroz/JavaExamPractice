@@ -7,7 +7,7 @@ import chapter15.DbConnect1.DbConnector;
 public class DbUpdate {
 	public static void main(String[] args) throws SQLException {
 		try (Connection connection = DbConnector.connectToDb();
-				Statement statement = connection.createStatement();
+				Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_SENSITIVE, ResultSet.CONCUR_UPDATABLE);
 				ResultSet resultSet = statement
 						.executeQuery("SELECT * FROM contact WHERE firstName = \"Michael\"")) {
 			System.out.println("Before the update");
