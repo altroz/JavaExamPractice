@@ -7,7 +7,7 @@ public class AsyncThread extends Thread {
 			System.out.println("In thread " + getName() + "; iteration " + i);
 			try {
 				// sleep for sometime before the next iteration
-				Thread.sleep(10);
+				Thread.sleep(1000);
 			} catch (InterruptedException ie) {
 				// we're not interrupting any threads.
 				// - so safe to ignore this exception
