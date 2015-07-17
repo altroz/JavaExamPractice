@@ -25,7 +25,6 @@ public class Waiter extends Thread {
 					.println("Waiter: Notifying coffee machine to make another one");
 		}
 	}
-
 	public void run() {
 		// Keep going till the user presses crtl-C and terminates the program
 		while (true) {
