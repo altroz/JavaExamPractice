@@ -4,8 +4,8 @@ public class Echo {
 	public static void main(String[] args) {
 		if (args.length == 0) {
 			// no arguement - display an error to the user
-			System.out.println("Error: No input passed to echo command...");
-			System.exit(-1);
+			throw new IllegalArgumentException(
+					"No input passed to echo command");
 		} else {
 			for (String str : args) {
 				// command-line arguements are separated and passed as an array.
