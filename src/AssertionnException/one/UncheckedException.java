@@ -5,6 +5,11 @@ import java.io.FileNotFoundException;
 
 public class UncheckedException {
 	public static void main(String[] args) throws FileNotFoundException {
-		FileInputStream fis = new FileInputStream(args[0]);
+		try {
+			FileInputStream fis = new FileInputStream(args[0]);
+		} catch (ArrayIndexOutOfBoundsException aioobe) {
+			System.out.println("No error: No Argument");
+			System.out.println("Pass the name of the file");
+		}
 	}
 }
