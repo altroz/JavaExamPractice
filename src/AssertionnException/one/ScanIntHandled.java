@@ -17,6 +17,7 @@ public class ScanIntHandled {
 			// is typed in the console; so handle it.
 			System.out
 					.println("Error: You typed some text that is not an integer value. ");
+			ime.printStackTrace();
 		}
 	}
 }
