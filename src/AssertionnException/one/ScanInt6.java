@@ -17,6 +17,7 @@ public class ScanInt6 {
 					.println("Error: Encounted an exception and coule not read an integer from console");
 			System.out
 					.println("Exiting the program - restart and try the program again !");
+			consoleScanner.close();
 		}
 	}
 }
