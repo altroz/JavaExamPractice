@@ -11,8 +11,11 @@ public class AvaiableLocales {
 				locales.length);
 
 		for (Locale locale : locales) {
+			
+			// filter and display only english locales. 
+			if(locale.getLanguage().equals("en")){
 			System.out.printf("Locales code: %s and it stands for %s %n",
 					locale, locale.getDisplayName());
-		}
+		}}
 	}
 }
