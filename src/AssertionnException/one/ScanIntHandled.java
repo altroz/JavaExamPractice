@@ -18,6 +18,10 @@ public class ScanIntHandled {
 			System.out
 					.println("Error: You typed some text that is not an integer value. ");
 			ime.printStackTrace();
+
+			for (StackTraceElement methodCall : ime.getStackTrace()) {
+				System.out.println(methodCall);
+			}
 		}
 	}
 }
